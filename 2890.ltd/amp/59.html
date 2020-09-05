@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>挖坑埋密码？密码存贮程序Bitwarden初体验</title>
-    <link rel="canonical" href="https://2890.ltd/blog/59.html"/>
+    <link rel="canonical" href="../blog/59.html"/>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
@@ -43,7 +43,7 @@
 </head>
 <body>
 <header class="header">
-    <div class="header-title"><h1><a href="//2890.ltd/ampindex/">OKYes!个人博客</a></h1></div>
+    <div class="header-title"><h1><a href="../ampindex/index.html">OKYes!个人博客</a></h1></div>
 </header>
 
 <article class="post"><h1 class="title">挖坑埋密码？密码存贮程序Bitwarden初体验</h1>
@@ -54,7 +54,7 @@ yum -y install docker
 systemctl start docker
 #开机自启
 systemctl enable docker</code></pre><h3>使用Docker拉取BitWarden_rs镜像并运行</h3><pre><code>docker pull bitwardenrs/server:latest
-docker run -d --name bitwarden -v /bw-data/:/data/ -p 8848:80 bitwardenrs/server:latest</code></pre><h3>配置反向代理</h3><p>建议使用宝塔面板进行反向代理配置，使用<a href="#">Freessl</a>获取一个免费的亚洲诚信SSL证书（BitWarden需要SSL才能工作）<br>反向代理配置如下</p><pre><code>#PROXY-START/
+docker run -d --name bitwarden -v /bw-data/:/data/ -p 8848:80 bitwardenrs/server:latest</code></pre><h3>配置反向代理</h3><p>建议使用宝塔面板进行反向代理配置，使用<a href="59.html#">Freessl</a>获取一个免费的亚洲诚信SSL证书（BitWarden需要SSL才能工作）<br>反向代理配置如下</p><pre><code>#PROXY-START/
 location  ~* \.(php|jsp|cgi|asp|aspx)$
 {
     proxy_pass http://你的IP:8848;
@@ -79,8 +79,8 @@ location /
 }
 
 #PROXY-END/</code></pre><h2>ENJOY</h2><p><amp-img  layout="responsive"  width="1365" height="688" src="https://cdn233.2890.ltd/20200116/1/5e1ffc40ac003CLSUFFQQ20200116-140104.png" alt="Main" title="Main"></amp-img></p>    </div>
-    <p class="notice">当前页面是本站的「<a href="//www.ampproject.org/zh_cn/">Google AMP</a>」版。查看和发表评论请点击：<a
-                href="https://2890.ltd/blog/59.html">完整版 »</a></p>
+    <p class="notice">当前页面是本站的「<a href="https://www.ampproject.org/zh_cn/">Google AMP</a>」版。查看和发表评论请点击：<a
+                href="../blog/59.html">完整版 »</a></p>
     </article>
 <footer><div class="footer"><p>&copy; 2020 <a data-type="amp" href="https://github.com/holmesian/Typecho-AMP">AMP for Typecho</a> v0.7.6.2            , Designed by  <a href="https://holmesian.org/" target="_blank">Holmesian</a>.</p></div></footer>
 </body>

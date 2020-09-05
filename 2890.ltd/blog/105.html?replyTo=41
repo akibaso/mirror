@@ -7,9 +7,9 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 <meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="//cdn233.2890.ltd" />
-<link rel="dns-prefetch" href="//cdn.2890.ltd" />
-<link rel="dns-prefetch" href="//cdn.hyh.ink" />
+<link rel="dns-prefetch" href="https://cdn233.2890.ltd/" />
+<link rel="dns-prefetch" href="https://cdn.2890.ltd/" />
+<link rel="dns-prefetch" href="https://cdn.hyh.ink/" />
 <title>全新的免费域名-pp.ua - OKYes!个人博客</title>
 <meta property="og:title" content="全新的免费域名-pp.ua" />
 <meta property="og:site_name" content="OKYes!个人博客" />
@@ -21,22 +21,22 @@
 <meta name="twitter:title" content="全新的免费域名-pp.ua" />
 <meta name="twitter:description" content="今天，又在网上看到个撸域名的，吓得我赶快去撸了点，这次的域名不是优惠券，而是购买时就显示免费。这个域名和之前撸ooo挺像，请闷声发大财现在还有短域名，比如三位，二位都还有些打开这个网站，搜索你要..." /><meta name="twitter:card" content="summary" /><meta name="description" content="今天，又在网上看到个撸域名的，吓得我赶快去撸了点，这次的域名不是优惠券，而是购买时就显示免费。这个域名和之前撸ooo挺像，请闷声发大财现在还有短域名，比如三位，二位都还有些打开这个网站，搜索你要..." />
 <meta name="template" content="Mirages" />
-<link rel="pingback" href="https://2890.ltd/action/xmlrpc" />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://2890.ltd/action/xmlrpc?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://2890.ltd/action/xmlrpc?wlw" />
-<link rel="alternate" type="application/rss+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; RSS 2.0" href="https://2890.ltd/feed/blog/105.html" />
-<link rel="alternate" type="application/rdf+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; RSS 1.0" href="https://2890.ltd/feed/rss/blog/105.html" />
-<link rel="alternate" type="application/atom+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; ATOM 1.0" href="https://2890.ltd/feed/atom/blog/105.html" />
+<link rel="pingback" href="../action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; RSS 2.0" href="../feed/blog/105.html" />
+<link rel="alternate" type="application/rdf+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; RSS 1.0" href="../feed/rss/blog/105.html" />
+<link rel="alternate" type="application/atom+xml" title="全新的免费域名-pp.ua &raquo; OKYes!个人博客 &raquo; ATOM 1.0" href="../feed/atom/blog/105.html" />
 
-<link rel="amphtml" href="https://2890.ltd/amp/105.html">
-<link rel="miphtml" href="https://2890.ltd/mip/105.html">
+<link rel="amphtml" href="../amp/105.html">
+<link rel="miphtml" href="../mip/105.html">
 
 <!-- APlayer Start -->
-<link rel="stylesheet" type="text/css" href="https://2890.ltd/usr/plugins/APlayer/assets/dist/APlayer.min.css" />
+<link rel="stylesheet" type="text/css" href="../usr/plugins/APlayer/assets/dist/APlayer.min.css" />
 <script>var APlayers = [];var APlayerOptions = [];</script>
 <!-- APlayer End -->
-<link href='https://2890.ltd/usr/plugins/Pio/static/pio.css' rel='stylesheet' type='text/css'/>
-<link rel="stylesheet" href="https://2890.ltd/usr/plugins/ArticlePoster/css/core.css">
+<link href='../usr/plugins/Pio/static/pio.css' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="../usr/plugins/ArticlePoster/css/core.css">
 			<style>
 				body { cursor: url(https://zpblogs.gitee.io/typecho_wenyu/assets/img/b1.cur), default; }
 				a,button,img { cursor: url(https://zpblogs.gitee.io/typecho_wenyu/assets/img/b2.cur), pointer !important; }
@@ -592,34 +592,34 @@
 <nav id="site-navigation" class="sidebar no-user-select" role="navigation">
     <div id="nav">
         <div class="author navbar-header">
-            <a href="https://2890.ltd/about.html">
+            <a href="../about.html">
                 <img src="https://scdn.2890.ltd/2020/03/19/6aa058f2b2213.jpg" alt="Avatar" width="100" height="100"/>
             </a>
         </div>
         <div class="search-box navbar-header">
-            <form class="form" id="search-form" action="https://2890.ltd/"  role="search">
+            <form class="form" id="search-form" action="../index.html"  role="search">
                 <input id="search" type="text" name="s" required placeholder="Search..." class="search search-form-input">
                 <button id="search_btn" type="submit" class="search-btn"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <ul id="menu-menu-1" class="menu navbar-nav" data-content="918">
-                        <li class="menu-item"><a href="https://2890.ltd">Home</a></li>
+                        <li class="menu-item"><a href="../index.html">Home</a></li>
             <li>
                 <a class="slide-toggle">Category</a>
                 <div class="category-list hide">
-                                        <ul class="list"><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/default.html">杂</a></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/w3.html">网络</a><ul class="list"><li class="category-level-1 category-child category-level-odd"><a href="https://2890.ltd/category/%E5%B0%B1%E5%9C%A8.html">建站狂魔</a></li><li class="category-level-1 category-child category-level-odd"><a href="https://2890.ltd/category/safe.html">网络安全</a></li></ul></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/hw.html">硬件</a></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/rc.html">日常</a></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/more.html">其他</a></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/thinking.html">奇思妙想</a><ul class="list"><li class="category-level-1 category-child category-level-odd"><a href="https://2890.ltd/category/day_dream.html">空想</a></li><li class="category-level-1 category-child category-level-odd"><a href="https://2890.ltd/category/dream.html">梦想</a></li></ul></li><li class="category-level-0 category-parent"><a href="https://2890.ltd/category/TinyBlog.html">微博客</a></li></ul>                </div>
+                                        <ul class="list"><li class="category-level-0 category-parent"><a href="../category/default.html">杂</a></li><li class="category-level-0 category-parent"><a href="../category/w3.html">网络</a><ul class="list"><li class="category-level-1 category-child category-level-odd"><a href="../category/就在.html">建站狂魔</a></li><li class="category-level-1 category-child category-level-odd"><a href="../category/safe.html">网络安全</a></li></ul></li><li class="category-level-0 category-parent"><a href="../category/hw.html">硬件</a></li><li class="category-level-0 category-parent"><a href="../category/rc.html">日常</a></li><li class="category-level-0 category-parent"><a href="../category/more.html">其他</a></li><li class="category-level-0 category-parent"><a href="../category/thinking.html">奇思妙想</a><ul class="list"><li class="category-level-1 category-child category-level-odd"><a href="../category/day_dream.html">空想</a></li><li class="category-level-1 category-child category-level-odd"><a href="../category/dream.html">梦想</a></li></ul></li><li class="category-level-0 category-parent"><a href="../category/TinyBlog.html">微博客</a></li></ul>                </div>
             </li>
-                                    <li class="menu-item"><a class="" href="https://2890.ltd/music.html" title="ミュージック">ミュージック</a></li>
-                        <li class="menu-item"><a class="" href="https://2890.ltd/bangumi.html" title="番組">番組</a></li>
-                        <li class="menu-item"><a class="" href="https://2890.ltd/archives.html" title="アーカイブ">アーカイブ</a></li>
-                        <li class="menu-item"><a class="" href="https://2890.ltd/links.html" title="友だち">友だち</a></li>
-                        <li class="menu-item"><a class="" href="https://2890.ltd/about.html" title="About">About</a></li>
+                                    <li class="menu-item"><a class="" href="../music.html" title="ミュージック">ミュージック</a></li>
+                        <li class="menu-item"><a class="" href="../bangumi.html" title="番組">番組</a></li>
+                        <li class="menu-item"><a class="" href="../archives.html" title="アーカイブ">アーカイブ</a></li>
+                        <li class="menu-item"><a class="" href="../links.html" title="友だち">友だち</a></li>
+                        <li class="menu-item"><a class="" href="../about.html" title="About">About</a></li>
                     </ul>
     </div>
                 <div id="nav-toolbar">
             <div class="side-toolbar">
                 <ul class="side-toolbar-list">
-                                            <li><a id="side-toolbar-rss" href="https://2890.ltd/feed" title="RSS"><i class="fa fa-feed"></i></a></li>
+                                            <li><a id="side-toolbar-rss" href="../feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
                                                                                     <li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
                                     </ul>
                 <div class="read-settings-container animated">
@@ -849,7 +849,7 @@ var registCommentEvent = function() {
                     <h1 class="blog-title" style="">
                         全新的免费域名-pp.ua                    </h1>
                     <h2 class="blog-description font-mono" style="">
-                        February 27, 2020 • <a href="https://2890.ltd/category/default.html">杂</a>,<a href="https://2890.ltd/category/w3.html">网络</a> • <a href="javascript:void(0)" id="page-read-setting-toggle">阅读设置</a>                    </h2>
+                        February 27, 2020 • <a href="../category/default.html">杂</a>,<a href="../category/w3.html">网络</a> • <a href="javascript:void(0)" id="page-read-setting-toggle">阅读设置</a>                    </h2>
                 </div>
 
             </div>
@@ -895,7 +895,7 @@ var registCommentEvent = function() {
 </script>
 
                 <div class="post-buttons">
-            <a id="toggle-archives" class="btn btn-grey" href="https://2890.ltd/archives.html">Archives</a>
+            <a id="toggle-archives" class="btn btn-grey" href="../archives.html">Archives</a>
                         <!-- ArticlePoster --><a class="btn btn-grey article-poster-button">文章海报</a><div data-id="105" class="article-poster action action-poster"><div class="poster-popover-mask" data-event="poster-close"></div><div class="poster-popover-box"><a class="poster-download" data-event="poster-download" data-url="">下载海报</a><img class="article-poster-images"/></div></div>                                    <a id="toggle-reward-qr-code" class="btn btn-grey">Tip</a>
                     </div>
                 <div style="text-align:center;"><div id="hitokoto"> <div id="hitokoto_text">:D 获取中...</div> </div></div>
@@ -919,8 +919,8 @@ var registCommentEvent = function() {
 <div class="container">
             <div class="post-near">
             <nav>
-                <span class="prev"><a href="https://2890.ltd/blog/106.html" title="总算给博客加上了l2d看板娘"><span class="post-near-span"><span class="prev-t no-user-select color-main">Next: </span><br><span>总算给博客加上了l2d看板娘</span></span></a></span>
-                <span class="next"><a href="https://2890.ltd/blog/91.html" title="百度，你太看得起我了"><span class="post-near-span"><span class="prev-t no-user-select color-main">Prev: </span><br><span>百度，你太看得起我了</span></span></a></span>
+                <span class="prev"><a href="106.html" title="总算给博客加上了l2d看板娘"><span class="post-near-span"><span class="prev-t no-user-select color-main">Next: </span><br><span>总算给博客加上了l2d看板娘</span></span></a></span>
+                <span class="next"><a href="91.html" title="百度，你太看得起我了"><span class="post-near-span"><span class="prev-t no-user-select color-main">Prev: </span><br><span>百度，你太看得起我了</span></span></a></span>
             </nav>
         </div>
             <br />

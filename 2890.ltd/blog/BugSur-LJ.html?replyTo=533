@@ -597,13 +597,13 @@
             </a>
         </div>
         <div class="search-box navbar-header">
-            <form class="form" id="search-form" action="../index.html"  role="search">
+            <form class="form" id="search-form" action="https://2890.ltd/index.html"  role="search">
                 <input id="search" type="text" name="s" required placeholder="Search..." class="search search-form-input">
                 <button id="search_btn" type="submit" class="search-btn"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <ul id="menu-menu-1" class="menu navbar-nav" data-content="918">
-                        <li class="menu-item"><a href="../index.html">Home</a></li>
+                        <li class="menu-item"><a href="https://2890.ltd/index.html">Home</a></li>
             <li>
                 <a class="slide-toggle">Category</a>
                 <div class="category-list hide">
@@ -619,7 +619,7 @@
                 <div id="nav-toolbar">
             <div class="side-toolbar">
                 <ul class="side-toolbar-list">
-                                            <li><a id="side-toolbar-rss" href="../feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
+                                            <li><a id="side-toolbar-rss" href="https://2890.ltd/feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
                                                                                     <li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
                                     </ul>
                 <div class="read-settings-container animated">
@@ -980,7 +980,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-550" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=550#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-550', 550);">Reply</a>    </div>
@@ -993,7 +993,7 @@ var registCommentEvent = function() {
 <li itemscope itemtype="http://schema.org/UserComments" id="comment-551" class="comment-body comment-child comment-level-odd comment-even comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=551#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-551', 551);">Reply</a>    </div>
@@ -1021,7 +1021,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-533" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=533#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-533', 533);">Reply</a>    </div>
@@ -1062,7 +1062,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-515" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=515#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-515', 515);">Reply</a>    </div>
@@ -1088,7 +1088,7 @@ var registCommentEvent = function() {
 <li itemscope itemtype="http://schema.org/UserComments" id="comment-517" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=517#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-517', 517);">Reply</a>    </div>
@@ -1142,7 +1142,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-507" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=507#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-507', 507);">Reply</a>    </div>
@@ -1170,7 +1170,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-510" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=510#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-510', 510);">Reply</a>    </div>
@@ -1211,7 +1211,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-508" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=508#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-508', 508);">Reply</a>    </div>
@@ -1265,7 +1265,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-499" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=499#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-499', 499);">Reply</a>    </div>
@@ -1293,7 +1293,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-498" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=498#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-498', 498);">Reply</a>    </div>
@@ -1308,7 +1308,7 @@ var registCommentEvent = function() {
 <li itemscope itemtype="http://schema.org/UserComments" id="comment-493" class="comment-body comment-parent comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="BugSur-LJ.html?replyTo=493#respond-post-190" rel="nofollow" onclick="return TypechoComment.reply('comment-493', 493);">Reply</a>    </div>
@@ -1328,7 +1328,7 @@ var registCommentEvent = function() {
 </div><!-- end #wrap -->
 <footer id="footer" role="contentinfo">
     <div class="container"  data-index="203">
-        <p>Copyright &copy; 2020 <a href="../index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
+        <p>Copyright &copy; 2020 <a href="https://2890.ltd/index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
     </div>
 </footer>
 

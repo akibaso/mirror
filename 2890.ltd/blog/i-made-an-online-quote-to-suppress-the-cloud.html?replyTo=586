@@ -598,13 +598,13 @@
             </a>
         </div>
         <div class="search-box navbar-header">
-            <form class="form" id="search-form" action="../index.html"  role="search">
+            <form class="form" id="search-form" action="https://2890.ltd/index.html"  role="search">
                 <input id="search" type="text" name="s" required placeholder="Search..." class="search search-form-input">
                 <button id="search_btn" type="submit" class="search-btn"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <ul id="menu-menu-1" class="menu navbar-nav" data-content="918">
-                        <li class="menu-item"><a href="../index.html">Home</a></li>
+                        <li class="menu-item"><a href="https://2890.ltd/index.html">Home</a></li>
             <li>
                 <a class="slide-toggle">Category</a>
                 <div class="category-list hide">
@@ -620,7 +620,7 @@
                 <div id="nav-toolbar">
             <div class="side-toolbar">
                 <ul class="side-toolbar-list">
-                                            <li><a id="side-toolbar-rss" href="../feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
+                                            <li><a id="side-toolbar-rss" href="https://2890.ltd/feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
                                                                                     <li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
                                     </ul>
                 <div class="read-settings-container animated">
@@ -881,7 +881,7 @@ var registCommentEvent = function() {
 &lt;script src=&quot;https://nd.2890.ltd/api/?format=js&quot; defer&gt;&lt;/script&gt;</code></pre><p>jsdq：返回一段js代码，文字被「」包裹，可以直接使用</p><pre><code>&lt;p id=&quot;hitokoto&quot;&gt;&lt;a href=&quot;#&quot; id=&quot;hitokoto_text&quot;&gt;:D 获取中...&lt;/a&gt;&lt;/p&gt;
 &lt;script src=&quot;https://nd.2890.ltd/api/?format=jsdq&quot; defer&gt;&lt;/script&gt;</code></pre><p>效果<br><img alt="image.png" title="image.png" data-mirages-cdn-type="-1" data-src="https://cdn233.2890.ltd/pics/2020/08/08/image.png"><br>text:返回纯文本，无需过多叙述<br>无参数：返回一段json文本<br>效果<br><img alt="imageacd8fbcb0c5b9cf3.png" title="imageacd8fbcb0c5b9cf3.png" data-mirages-cdn-type="-1" data-src="https://cdn233.2890.ltd/pics/2020/08/08/imageacd8fbcb0c5b9cf3.png"></p>                    </div>
         <div class="tags">
-			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="../tag/网抑云/index.html">网抑云</a></div>
+			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="https://2890.ltd/tag/网抑云/index.html">网抑云</a></div>
                         
         </div>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -969,7 +969,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-590" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="i-made-an-online-quote-to-suppress-the-cloud.html?replyTo=590#respond-post-218" rel="nofollow" onclick="return TypechoComment.reply('comment-590', 590);">Reply</a>    </div>
@@ -1023,7 +1023,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-586" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="i-made-an-online-quote-to-suppress-the-cloud.html?replyTo=586#respond-post-218" rel="nofollow" onclick="return TypechoComment.reply('comment-586', 586);">Reply</a>    </div>
@@ -1051,7 +1051,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-583" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="i-made-an-online-quote-to-suppress-the-cloud.html?replyTo=583#respond-post-218" rel="nofollow" onclick="return TypechoComment.reply('comment-583', 583);">Reply</a>    </div>
@@ -1073,7 +1073,7 @@ var registCommentEvent = function() {
 </div><!-- end #wrap -->
 <footer id="footer" role="contentinfo">
     <div class="container"  data-index="222">
-        <p>Copyright &copy; 2020 <a href="../index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
+        <p>Copyright &copy; 2020 <a href="https://2890.ltd/index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
     </div>
 </footer>
 

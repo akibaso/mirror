@@ -1,0 +1,418 @@
+<!doctype html>
+<html amp lang="zh">
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>如何充分使用CloudFlare的免费账户</title>
+    <link rel="canonical" href="../blog/55.html"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "如何充分使用CloudFlare的免费账户",
+        "mainEntityOfPage": "https://2890.ltd/blog/55.html",
+        "author": {
+          "@type": "Person",
+          "name": "Given | あきばそう"
+        },
+        "datePublished": "January 1, 2020",
+        "dateModified": "January 1, 2020",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.2890.ltd/d74a3de2bf526638b867b62f2caccda8.jpeg",
+          "width": "1600",
+          "height": "1600"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "OKYes!个人博客",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.2890.ltd/d74a3de2bf526638b867b62f2caccda8.jpeg",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "description": "想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干1. 使用CF workers进行反向代理，搭建博客大家应该都知道，CF出了一个worker服务，可以让你免费运行serverless代码，比如制作反向代理，搭建博客等，只要能用no..."
+      }
+                </script>
+    <style amp-custom>*{margin:0;padding:0}html,body{height:100%}body{background:#fff;color:#666;font-size:14px;font-family:"-apple-system","Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif}::selection,::-moz-selection,::-webkit-selection{background-color:#2479CC;color:#eee}h1{font-size:1.5em}h3{font-size:1.3em}h4{font-size:1.1em}a{color:#2479CC;text-decoration:none}article{padding:85px 15px 0}article .entry-content{color:#444;font-size:16px;font-family:Arial,'Hiragino Sans GB',冬青黑,'Microsoft YaHei',微软雅黑,SimSun,宋体,Helvetica,Tahoma,'Arial sans-serif';-webkit-font-smoothing:antialiased;line-height:1.8;word-wrap:break-word}article h1.title{color:#333;font-size:2em;font-weight:300;line-height:35px;margin-bottom:25px}article .entry-content p{margin-top:15px;text-indent: 2em;}article h1.title a{color:#333;transition:color .3s}article h1.title a:hover{color:#2479CC}article blockquote{background-color:#f8f8f8;border-left:5px solid #2479CC;margin-top:10px;overflow:hidden;padding:15px 20px}article code{background-color:#eee;border-radius:5px;font-family:Consolas,Monaco,'Andale Mono',monospace;font-size:80%;margin:0 2px;padding:4px 5px;vertical-align:middle}article pre{background-color:#f8f8f8;border-left:5px solid #ccc;color:#5d6a6a;font-size:14px;line-height:1.6;overflow:hidden;padding:0.6em;position:relative;white-space:pre-wrap;word-break:break-word;word-wrap:break-word}article table{border:0;border-collapse:collapse;border-spacing:0}article pre code{background-color:transparent;border-radius:0 0 0 0;border:0;display:block;font-size:100%;margin:0;padding:0;position:relative}article table th,article table td{border:0}article table th{border-bottom:2px solid #848484;padding:6px 20px;text-align:left}article table td{border-bottom:1px solid #d0d0d0;padding:6px 20px}article .copyright-info,article .amp-info{font-size:14px}article .notice{background-color:#f5d09a;border:1px solid #e2e2e2;border-left:5px solid #fff000;color:#333;font-size:15px;padding:5px 10px;margin:20px 0px}article .post-info,article .entry-content .date{font-size:14px}article .entry-content blockquote,article .entry-content ul,article .entry-content ol,article .entry-content dl,article .entry-content table,article .entry-content h1,article .entry-content h2,article .entry-content h3,article .entry-content h4,article .entry-content h5,article .entry-content h6,article .entry-content pre{margin-top:15px}article pre b.name{color:#eee;font-family:"Consolas","Liberation Mono",Courier,monospace;font-size:60px;line-height:1;pointer-events:none;position:absolute;right:10px;top:10px}article .entry-content .date{color:#999}article .entry-content ul ul,article .entry-content ul ol,article .entry-content ul dl,article .entry-content ol ul,article .entry-content ol ol,article .entry-content ol dl,article .entry-content dl ul,article .entry-content dl ol,article .entry-content dl dl,article .entry-content blockquote > p:first-of-type{margin-top:0}article .entry-content ul,article .entry-content ol,article .entry-content dl{margin-left:25px}.header{background-color:#fff;box-shadow:0 0 40px 0 rgba(0,0,0,0.1);box-sizing:border-box;font-size:14px;height:60px;padding:0 15px;position:absolute;width:100%}.footer{font-size:.9em;padding:15px 0 25px;text-align:center;width:auto}.header h1{font-size:30px;font-weight:400;line-height:30px;margin:15px 0px}.menu-list li a,.menu-list li span{border-bottom:solid 1px #ededed;color:#000;display:block;font-size:18px;height:60px;line-height:60px;text-align:center;width:86px}.header h1 a{color:#333}.tex .hljs-formula{background:#eee8d5}</style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+<header class="header">
+    <div class="header-title"><h1><a href="../ampindex/index.html">OKYes!个人博客</a></h1></div>
+</header>
+
+<article class="post"><h1 class="title">如何充分使用CloudFlare的免费账户</h1>
+    <div class="entry-content">
+        <p>想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干</p><h2>1. 使用CF workers进行反向代理，搭建博客</h2><p>大家应该都知道，CF出了一个worker服务，可以让你免费运行serverless代码，比如制作反向代理，搭建博客等，只要能用node.js实现理论都可以运行，每日免费请求量是20万，够一个小型站点一天使用了。<br>源码<br>1.反代</p><pre><code>
+/**
+ * static files (404.html, sw.js, conf.js)
+ */
+const ASSET_URL = '要访问的地址'
+
+const JS_VER = 10
+const MAX_RETRY = 1
+
+/** @type {RequestInit} */
+const PREFLIGHT_INIT = {
+  status: 204,
+  headers: new Headers({
+    'access-control-allow-origin': '*',
+    'access-control-allow-methods': 'GET,POST,PUT,PATCH,TRACE,DELETE,HEAD,OPTIONS',
+    'access-control-max-age': '1728000',
+  }),
+}
+
+/**
+ * @param {any} body
+ * @param {number} status
+ * @param {Object&lt;string, string&gt;} headers
+ */
+function makeRes(body, status = 200, headers = {}) {
+  headers['--ver'] = JS_VER
+  headers['access-control-allow-origin'] = '*'
+  return new Response(body, {status, headers})
+}
+
+
+/**
+ * @param {string} urlStr 
+ */
+function newUrl(urlStr) {
+  try {
+    return new URL(urlStr)
+  } catch (err) {
+    return null
+  }
+}
+
+
+addEventListener('fetch', e =&gt; {
+  const ret = fetchHandler(e)
+    .catch(err =&gt; makeRes('cfworker error:\n' + err.stack, 502))
+  e.respondWith(ret)
+})
+
+
+/**
+ * @param {FetchEvent} e 
+ */
+async function fetchHandler(e) {
+  const req = e.request
+  const urlStr = req.url
+  const urlObj = new URL(urlStr)
+  const path = urlObj.href.substr(urlObj.origin.length)
+
+  if (urlObj.protocol === 'http:') {
+    urlObj.protocol = 'https:'
+    return makeRes('', 301, {
+      'strict-transport-security': 'max-age=99999999; includeSubDomains; preload',
+      'location': urlObj.href,
+    })
+  }
+
+  if (path.startsWith('/http/')) {
+    return httpHandler(req, path.substr(6))
+  }
+
+  switch (path) {
+  case '/http':
+    return makeRes('请更新 cfworker 到最新版本!')
+  case '/ws':
+    return makeRes('not support', 400)
+  case '/works':
+    return makeRes('it works')
+  default:
+    // static files
+    return fetch(ASSET_URL + path)
+  }
+}
+
+
+/**
+ * @param {Request} req
+ * @param {string} pathname
+ */
+function httpHandler(req, pathname) {
+  const reqHdrRaw = req.headers
+  if (reqHdrRaw.has('x-jsproxy')) {
+    return Response.error()
+  }
+
+  // preflight
+  if (req.method === 'OPTIONS' &amp;&amp;
+      reqHdrRaw.has('access-control-request-headers')
+  ) {
+    return new Response(null, PREFLIGHT_INIT)
+  }
+
+  let acehOld = false
+  let rawSvr = ''
+  let rawLen = ''
+  let rawEtag = ''
+
+  const reqHdrNew = new Headers(reqHdrRaw)
+  reqHdrNew.set('x-jsproxy', '1')
+
+  // 此处逻辑和 http-dec-req-hdr.lua 大致相同
+  // https://github.com/EtherDream/jsproxy/blob/master/lua/http-dec-req-hdr.lua
+  const refer = reqHdrNew.get('referer')
+  const query = refer.substr(refer.indexOf('?') + 1)
+  if (!query) {
+    return makeRes('missing params', 403)
+  }
+  const param = new URLSearchParams(query)
+
+  for (const [k, v] of Object.entries(param)) {
+    if (k.substr(0, 2) === '--') {
+      // 系统信息
+      switch (k.substr(2)) {
+      case 'aceh':
+        acehOld = true
+        break
+      case 'raw-info':
+        [rawSvr, rawLen, rawEtag] = v.split('|')
+        break
+      }
+    } else {
+      // 还原 HTTP 请求头
+      if (v) {
+        reqHdrNew.set(k, v)
+      } else {
+        reqHdrNew.delete(k)
+      }
+    }
+  }
+  if (!param.has('referer')) {
+    reqHdrNew.delete('referer')
+  }
+
+  // cfworker 会把路径中的 `//` 合并成 `/`
+  const urlStr = pathname.replace(/^(https?):\/+/, '$1://')
+  const urlObj = newUrl(urlStr)
+  if (!urlObj) {
+    return makeRes('invalid proxy url: ' + urlStr, 403)
+  }
+
+  /** @type {RequestInit} */
+  const reqInit = {
+    method: req.method,
+    headers: reqHdrNew,
+    redirect: 'manual',
+  }
+  if (req.method === 'POST') {
+    reqInit.body = req.body
+  }
+  return proxy(urlObj, reqInit, acehOld, rawLen, 0)
+}
+
+
+/**
+ * 
+ * @param {URL} urlObj 
+ * @param {RequestInit} reqInit 
+ * @param {number} retryTimes 
+ */
+async function proxy(urlObj, reqInit, acehOld, rawLen, retryTimes) {
+  const res = await fetch(urlObj.href, reqInit)
+  const resHdrOld = res.headers
+  const resHdrNew = new Headers(resHdrOld)
+
+  let expose = '*'
+  
+  for (const [k, v] of resHdrOld.entries()) {
+    if (k === 'access-control-allow-origin' ||
+        k === 'access-control-expose-headers' ||
+        k === 'location' ||
+        k === 'set-cookie'
+    ) {
+      const x = '--' + k
+      resHdrNew.set(x, v)
+      if (acehOld) {
+        expose = expose + ',' + x
+      }
+      resHdrNew.delete(k)
+    }
+    else if (acehOld &amp;&amp;
+      k !== 'cache-control' &amp;&amp;
+      k !== 'content-language' &amp;&amp;
+      k !== 'content-type' &amp;&amp;
+      k !== 'expires' &amp;&amp;
+      k !== 'last-modified' &amp;&amp;
+      k !== 'pragma'
+    ) {
+      expose = expose + ',' + k
+    }
+  }
+
+  if (acehOld) {
+    expose = expose + ',--s'
+    resHdrNew.set('--t', '1')
+  }
+
+  // verify
+  if (rawLen) {
+    const newLen = resHdrOld.get('content-length') || ''
+    const badLen = (rawLen !== newLen)
+
+    if (badLen) {
+      if (retryTimes &lt; MAX_RETRY) {
+        urlObj = await parseYtVideoRedir(urlObj, newLen, res)
+        if (urlObj) {
+          return proxy(urlObj, reqInit, acehOld, rawLen, retryTimes + 1)
+        }
+      }
+      return makeRes(res.body, 400, {
+        '--error': `bad len: ${newLen}, except: ${rawLen}`,
+        'access-control-expose-headers': '--error',
+      })
+    }
+
+    if (retryTimes &gt; 1) {
+      resHdrNew.set('--retry', retryTimes)
+    }
+  }
+
+  let status = res.status
+
+  resHdrNew.set('access-control-expose-headers', expose)
+  resHdrNew.set('access-control-allow-origin', '*')
+  resHdrNew.set('--s', status)
+  resHdrNew.set('--ver', JS_VER)
+
+  resHdrNew.delete('content-security-policy')
+  resHdrNew.delete('content-security-policy-report-only')
+  resHdrNew.delete('clear-site-data')
+
+  if (status === 301 ||
+      status === 302 ||
+      status === 303 ||
+      status === 307 ||
+      status === 308
+  ) {
+    status = status + 10
+  }
+
+  return new Response(res.body, {
+    status,
+    headers: resHdrNew,
+  })
+}
+
+
+/**
+ * @param {URL} urlObj 
+ */
+function isYtUrl(urlObj) {
+  return (
+    urlObj.host.endsWith('.googlevideo.com') &amp;&amp;
+    urlObj.pathname.startsWith('/videoplayback')
+  )
+}
+
+/**
+ * @param {URL} urlObj 
+ * @param {number} newLen 
+ * @param {Response} res 
+ */
+async function parseYtVideoRedir(urlObj, newLen, res) {
+  if (newLen &gt; 2000) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  try {
+    const data = await res.text()
+    urlObj = new URL(data)
+  } catch (err) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  return urlObj
+}![]()</code></pre><p>2.博客<br>源代码<a href="https://github.com">GayHub</a>上一堆，不发了</p><h2>2. 手动指定cf节点ip来达到最佳cdn效果</h2><p>此操作使用于用CloudFlare Partner接入的用户<br>添加网站之后，通过A记录解析到这些IP：</p><pre><code>108.162.236.1/24 联通 走美国
+172.64.32.1/24 移动 走香港
+104.16.160.1/24 电信 走美国洛杉矶
+---------
+172.64.0.0/24 电信 美国旧金山
+104.20.157.0/24 联通 走日本
+104.28.14.0/24 移动 走新加坡
+ （联通移动推荐节点）
+ 104.23.240.0-104.23.243.254
+ （电信推荐百度云合作ip）
+ 162.159.208.4-162.159.208.103
+ 162.159.209.4-162.159.209.103
+ 162.159.210.4-162.159.210.103
+ 162.159.211.4-162.159.211.103</code></pre><p>速度快的：</p><pre><code>104.20.157.2 
+104.18.62.2 
+141.101.115.3 
+104.16.160.3</code></pre><p>百度云加速合作节点：</p><pre><code>162.159.211.4-103
+103.21.244.0/22
+103.22.200.0/22
+103.31.4.0/22
+104.16.0.0/12
+108.162.192.0/18
+131.0.72.0/22
+141.101.64.0/18
+162.158.0.0/15
+172.64.0.0/13
+173.245.48.0/20
+188.114.96.0/20
+190.93.240.0/20
+197.234.240.0/22
+198.41.128.0/17</code></pre><p>其余节点</p><pre><code>#适合电信的节点
+104.23.240.*
+#走欧洲各国出口 英国德国荷兰等 延迟比美国高一些 适合源站在欧洲的网站
+172.64.32.*
+#虽然去程走新加坡，但是回程线路的绕路的，实际效果不好，不推荐
+104.16.160.*
+#圣何塞的线路，比洛杉矶要快一点，推荐
+108.162.236.*
+#亚特兰大线路，延迟稳定，但是延迟较高
+#适合移动的节点
+162.158.133.* 
+#走的丹麦，这一段ip只有部分能用，可以自己试一下。绕美国。
+198.41.214.*
+198.41.212.*
+198.41.208.*
+198.41.209.*
+172.64.32.*
+141.101.115.*
+#移动走香港的IP段有很多，以上并不是全部。CF移动走香港的分直连和走ntt的效果都挺不错的，不过部分地区晚上还是会丢包。
+172.64.0. *
+#这是走圣何塞的，一般用香港的就行
+172.64.16.* 
+#欧洲线路.绕
+ #1.0.0.1效果较好
+电信部分
+大多数省直接使用1.0.0.0即可，延迟低，丢包少，
+ #移动部分
+#新加坡
+ 104.18.48.0-104.18.63.255
+104.24.112.0-104.24.127.255
+104.27.128.0-104.27.143.255
+104.28.0.0-104.28.15.255
+ #移动部分
+#圣何塞 
+104.28.16.0-31.255
+104.27.144.0-243.254
+104.23.240.0-243.254
+ #香港cloudflare1-100g.hkix.net
+1.0.0.0-254
+1.1.1.0-254
+ #香港直连
+104.16.0.0-79.255
+104.16.96.0-175.254
+104.16.192.0-207.255</code></pre>    </div>
+    <p class="notice">当前页面是本站的「<a href="https://www.ampproject.org/zh_cn/">Google AMP</a>」版。查看和发表评论请点击：<a
+                href="../blog/55.html">完整版 »</a></p>
+    </article>
+<footer><div class="footer"><p>&copy; 2020 <a data-type="amp" href="https://github.com/holmesian/Typecho-AMP">AMP for Typecho</a> v0.7.6.2            , Designed by  <a href="https://holmesian.org/" target="_blank">Holmesian</a>.</p></div></footer>
+</body>
+</html>

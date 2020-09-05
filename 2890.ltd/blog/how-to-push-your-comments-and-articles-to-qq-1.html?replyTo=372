@@ -598,13 +598,13 @@
             </a>
         </div>
         <div class="search-box navbar-header">
-            <form class="form" id="search-form" action="../index.html"  role="search">
+            <form class="form" id="search-form" action="https://2890.ltd/index.html"  role="search">
                 <input id="search" type="text" name="s" required placeholder="Search..." class="search search-form-input">
                 <button id="search_btn" type="submit" class="search-btn"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <ul id="menu-menu-1" class="menu navbar-nav" data-content="918">
-                        <li class="menu-item"><a href="../index.html">Home</a></li>
+                        <li class="menu-item"><a href="https://2890.ltd/index.html">Home</a></li>
             <li>
                 <a class="slide-toggle">Category</a>
                 <div class="category-list hide">
@@ -620,7 +620,7 @@
                 <div id="nav-toolbar">
             <div class="side-toolbar">
                 <ul class="side-toolbar-list">
-                                            <li><a id="side-toolbar-rss" href="../feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
+                                            <li><a id="side-toolbar-rss" href="https://2890.ltd/feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
                                                                                     <li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
                                     </ul>
                 <div class="read-settings-container animated">
@@ -904,7 +904,7 @@ var registCommentEvent = function() {
 <span class="content-file-filename">Posts2QQ</span>
 </a><br><div class="reply2view">此处内容需要评论回复后方可阅读</div></p><span id="menu_index_5" name="menu_index_5"></span><h2>来我群摸鱼啊</h2><p>群号:574985501<br><img class="biaoqing newpaopao" src="https://cdn233.2890.ltd/tc/usr/plugins/Mirages/biaoqing/paopao/E6BB91E7A8BD_2x.png" height="30" width="30" no-zoom></p>                    </div>
         <div class="tags">
-			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="../tag/php/index.html">php</a><a href="../tag/QQ/index.html">QQ</a><a href="../tag/WebHook/index.html">WebHook</a><a href="../tag/插件/index.html">插件</a><a href="../tag/Typecho/index.html">Typecho</a></div>
+			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="https://2890.ltd/tag/php/index.html">php</a><a href="https://2890.ltd/tag/QQ/index.html">QQ</a><a href="https://2890.ltd/tag/WebHook/index.html">WebHook</a><a href="https://2890.ltd/tag/插件/index.html">插件</a><a href="https://2890.ltd/tag/Typecho/index.html">Typecho</a></div>
                         
         </div>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -992,7 +992,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-548" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=548#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-548', 548);">Reply</a>    </div>
@@ -1020,7 +1020,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-549" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=549#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-549', 549);">Reply</a>    </div>
@@ -1061,7 +1061,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-492" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=492#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-492', 492);">Reply</a>    </div>
@@ -1115,7 +1115,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-491" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=491#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-491', 491);">Reply</a>    </div>
@@ -1143,7 +1143,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-440" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=440#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-440', 440);">Reply</a>    </div>
@@ -1171,7 +1171,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-432" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=432#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-432', 432);">Reply</a>    </div>
@@ -1199,7 +1199,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-400" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=400#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-400', 400);">Reply</a>    </div>
@@ -1227,7 +1227,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-389" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=389#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-389', 389);">Reply</a>    </div>
@@ -1268,7 +1268,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-384" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=384#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-384', 384);">Reply</a>    </div>
@@ -1294,7 +1294,7 @@ var registCommentEvent = function() {
 <li itemscope itemtype="http://schema.org/UserComments" id="comment-386" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=386#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-386', 386);">Reply</a>    </div>
@@ -1335,7 +1335,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-382" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=382#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-382', 382);">Reply</a>    </div>
@@ -1363,7 +1363,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-376" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=376#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-376', 376);">Reply</a>    </div>
@@ -1391,7 +1391,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-377" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=377#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-377', 377);">Reply</a>    </div>
@@ -1445,7 +1445,7 @@ var registCommentEvent = function() {
         <ol class="comment-list"><li itemscope itemtype="http://schema.org/UserComments" id="comment-369" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=369#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-369', 369);">Reply</a>    </div>
@@ -1471,7 +1471,7 @@ var registCommentEvent = function() {
 <li itemscope itemtype="http://schema.org/UserComments" id="comment-372" class="comment-body comment-child comment-level-odd comment-odd comment-by-author">
     <div class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
         <span itemprop="image"><img class="avatar" src="https://cdn233.2890.ltd/tc/usr/themes/Mirages/images/spinner.svg" data-src="https://secure.gravatar.com/avatar/fc5b857f26570beb80268906b9afc044?s=100&amp;r=G&amp;d=" alt="Given | あきばそう" width="100" height="100" /></span>
-        <cite class="fn color-main" itemprop="name"><a href="../index.html" rel="external nofollow">Given | あきばそう</a></cite>
+        <cite class="fn color-main" itemprop="name"><a href="https://2890.ltd/index.html" rel="external nofollow">Given | あきばそう</a></cite>
     </div>
     <div class="comment-reply">
         <a href="how-to-push-your-comments-and-articles-to-qq-1.html?replyTo=372#respond-post-181" rel="nofollow" onclick="return TypechoComment.reply('comment-372', 372);">Reply</a>    </div>
@@ -1506,7 +1506,7 @@ var registCommentEvent = function() {
 </div><!-- end #wrap -->
 <footer id="footer" role="contentinfo">
     <div class="container"  data-index="206">
-        <p>Copyright &copy; 2020 <a href="../index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
+        <p>Copyright &copy; 2020 <a href="https://2890.ltd/index.html">OKYes!个人博客</a></p><p><a href="http://beian.miit.gov.cn" target='_blank'> 粤ICP备15040057号</a> · <a href="http://ipv6-test.com/validate.php?url=https://2890.ltd">IPv6 is OK</a></p>        
     </div>
 </footer>
 

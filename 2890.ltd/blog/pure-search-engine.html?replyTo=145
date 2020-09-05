@@ -598,13 +598,13 @@
             </a>
         </div>
         <div class="search-box navbar-header">
-            <form class="form" id="search-form" action="../index.html"  role="search">
+            <form class="form" id="search-form" action="https://2890.ltd/index.html"  role="search">
                 <input id="search" type="text" name="s" required placeholder="Search..." class="search search-form-input">
                 <button id="search_btn" type="submit" class="search-btn"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <ul id="menu-menu-1" class="menu navbar-nav" data-content="918">
-                        <li class="menu-item"><a href="../index.html">Home</a></li>
+                        <li class="menu-item"><a href="https://2890.ltd/index.html">Home</a></li>
             <li>
                 <a class="slide-toggle">Category</a>
                 <div class="category-list hide">
@@ -620,7 +620,7 @@
                 <div id="nav-toolbar">
             <div class="side-toolbar">
                 <ul class="side-toolbar-list">
-                                            <li><a id="side-toolbar-rss" href="../feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
+                                            <li><a id="side-toolbar-rss" href="https://2890.ltd/feed.1" title="RSS"><i class="fa fa-feed"></i></a></li>
                                                                                     <li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
                                     </ul>
                 <div class="read-settings-container animated">
@@ -913,7 +913,7 @@ var registCommentEvent = function() {
         </div>
     </section></p><span id="menu_index_3" name="menu_index_3"></span><h2>传送门</h2><p><a href="https://dogedoge.com/" target="_blank" class="btn btn-primary">多吉搜索</a><br>我认为你们用了它就不会再想用百度了</p>                    </div>
         <div class="tags">
-			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="../tag/搜索引擎/index.html">搜索引擎</a><a href="../tag/搜索/index.html">搜索</a><a href="../tag/doge/index.html">doge</a><a href="../tag/多吉/index.html">多吉</a><a href="../tag/DuckDuckGo/index.html">DuckDuckGo</a><a href="../tag/DogeDoge/index.html">DogeDoge</a></div>
+			<div itemprop="keywords" class="keywords VvoA4R aut"><a href="https://2890.ltd/tag/搜索引擎/index.html">搜索引擎</a><a href="https://2890.ltd/tag/搜索/index.html">搜索</a><a href="https://2890.ltd/tag/doge/index.html">doge</a><a href="https://2890.ltd/tag/多吉/index.html">多吉</a><a href="https://2890.ltd/tag/DuckDuckGo/index.html">DuckDuckGo</a><a href="https://2890.ltd/tag/DogeDoge/index.html">DogeDoge</a></div>
                         
         </div>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
