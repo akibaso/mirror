@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-cn" mip>
+<head>
+    <meta charset="utf-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <title>如何充分使用CloudFlare的免费账户</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="https://mipcache.bdstatic.com/static/v1/mip.css">
+    <link rel="canonical" href="../blog/55.html">
+    <style mip-custom>p{text-indent: 2em;} a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{margin:0;padding:0;border:0;font-family:inherit;font-size:100%;font-weight:inherit;font-style:inherit;vertical-align:baseline;outline:0}body{line-height:1;color:#000;background:#fff}ol,ul{list-style:none}table{vertical-align:middle;border-spacing:0;border-collapse:separate}caption,td,th{font-weight:400;text-align:left;vertical-align:middle}a img{border:none}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}button::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=reset]::-moz-focus-inner,input[type=submit]::-moz-focus-inner{margin:0;padding:0;border:0}button,input,select{margin:0;padding:0;border:0}body{overflow-x:hidden;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:15px;color:#444;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}.mip-nav-wrapper{padding:0 10px;background-color:#323436}.navbar-brand{color:#fff!important}@media screen and (min-width:767px){.mip-nav-wrapper a{color:#fff!important}}@media screen and (max-width:767px){.mip-nav-wrapper .navbar-brand{margin-top:2px}}.navbar-brand{display:block;overflow:hidden;max-width:200px;line-height:41px;white-space:nowrap;text-overflow:ellipsis}mip-fixed[type=bottom],mip-fixed[type=top]{overflow:visible}.post{position:relative;padding:15px 10px;border-top:1px solid #fff;border-bottom:1px solid #ddd;word-wrap:break-word;background-color:#fff}h1.title,h2.title{padding:10px 0;font-size:28px}.post .meta{color:#666}.article-more a{color:#2479c2}.article-content .date{display:inline-block;margin:0 10px;font-size:14px;font-style:italic;color:#999}.article-content{line-height:1.6em;color:#444}@media print{.article-content{font-size:12pt}}.article-content .highlight,.article-content blockquote,.article-content dl,.article-content iframe,.article-content ol,.article-content p,.article-content table,.article-content ul{margin:1em 0}.article-content h1{font-size:2em}.article-content h2{font-size:1.5em}.article-content h3{font-size:1.3em}.article-content h1,.article-content h2,.article-content h3,.article-content h4,.article-content h5,.article-content h6{margin:1em 0;font-weight:700;line-height:1em}.article-content a{text-decoration:none;color:#0e83cd}.article-content a:hover{text-decoration:underline;color:#1094e8}@media print{.article-content a{text-decoration:underline;color:#444}.article-content a:after{content:" (" attr(href) ")";font-size:80%}}.article-content strong{font-weight:700}.article-content em{font-style:italic}.article-content dl,.article-content ol,.article-content ul{margin-left:20px}.article-content dl dl,.article-content dl ol,.article-content dl ul,.article-content ol dl,.article-content ol ol,.article-content ol ul,.article-content ul dl,.article-content ul ol,.article-content ul ul{margin-top:0;margin-bottom:0}.article-content ul{list-style:disc}.article-content ol{list-style:decimal}.article-content dl{list-style:square}.article-content li p{margin:0}.article-content li .highlight,.article-content li blockquote,.article-content li iframe,.article-content li table{margin:1em 0}.article-content img,.article-content video{max-width:100%}.article-content table{max-width:100%;border:1px solid #e3e3e3}.article-content table th{font-weight:700}.article-content table td,.article-content table th{padding:5px 15px}.article-content table tr:nth-child(2n){background:#eee}.article-content blockquote{position:relative;padding:0 20px;border:1px solid #e3e3e3;border-left:5px solid #ddd}.article-content .tip,.article-content .tip-error,.article-content .tip-info{position:relative;margin:1em 0;padding:1em 20px;border:1px solid #e3e3e3;border-left:5px solid #5fb878;border-top-right-radius:2px;border-bottom-right-radius:2px}.article-content .tip br:first-child,.article-content .tip-error br:first-child,.article-content .tip-info br:first-child{display:none}.article-content .tip-error:before,.article-content .tip-info:before{content:"!";position:absolute;top:16px;left:-12px;width:20px;height:20px;font-family:Dosis,"Source Sans Pro","Helvetica Neue",Arial,sans-serif;font-size:14px;font-weight:700;line-height:20px;text-align:center;color:#fff;border-radius:100%;background-color:#5fb878}.article-content .tip-info{border-left-color:#1e9fff}.article-content .tip-info:before{background-color:#1e9fff}.article-content .tip-error{border-left-color:#ff5722}.article-content .tip-error:before{background-color:#ff5722}.main{padding:72px 10px 0;max-width:1000px;margin:0 auto}@media screen and (max-width:767px){.main{padding-top:44px}}code,pre{font-family:"Source Code Pro",Monaco,Menlo,Consolas,monospace;font-size:.95em;color:#4d4d4c;background:#eee;overflow-x:auto;-webkit-overflow-scrolling:touch}code{padding:0 5px}pre{padding:10px 15px;line-height:22px}pre code{display:block;padding:0;border:none}.highlight{overflow:auto;margin:0;padding:10px 15px;color:#4d4d4c;background:#eee}.highlight table{margin:0!important;border:0}.highlight table td,.highlight table th{padding:0}.highlight figcaption{margin:-5px 0 5px;font-size:.9em;color:#999}.highlight figcaption:after,.highlight figcaption:before{content:"";display:table}.highlight figcaption:after{clear:both}.highlight figcaption a{float:right}.highlight pre{padding:0;border:none;background:0 0}.highlight .line{height:22px}pre .comment,pre .title{color:#8e908c}pre .attribute,pre .css .class,pre .css .id,pre .css .pseudo,pre .html .doctype,pre .regexp,pre .ruby .constant,pre .tag,pre .variable,pre .xml .doctype,pre .xml .pi,pre .xml .tag .title{color:#c82829}pre .built_in,pre .constant,pre .literal,pre .number,pre .params,pre .preprocessor{color:#f5871f}pre .class,pre .css .rules .attribute,pre .ruby .class .title{color:#718c00}pre .header,pre .inheritance,pre .ruby .symbol,pre .string,pre .value,pre .xml .cdata{color:#718c00}pre .css .hexcolor{color:#3e999f}pre .coffeescript .title,pre .function,pre .javascript .title,pre .perl .sub,pre .python .decorator,pre .python .title,pre .ruby .function .title,pre .ruby .title .keyword{color:#4271ae}pre .javascript .function,pre .keyword{color:#8959a8}.footer{line-height:1.8;text-align:center;padding:15px;border-top:1px solid #fff;font-size:.9em;color:#999}.footer a{color:#2479c2}.pagination{width:100%;line-height:20px;position:relative;border-top:1px solid #fff;border-bottom:1px solid #ddd;padding:20px 0;overflow:hidden}.pagination .prev{float:left}.pagination .next{float:right}.pagination a{color:#2479c2}</style>
+    <script type="application/ld+json">
+                    {
+                        "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+                        "@id": "https://2890.ltd/mip/55.html",
+                        "appid": "",
+                        "title": "如何充分使用CloudFlare的免费账户",
+                        "description": "想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干1. 使用CF workers进行反向代理，搭建博客大家应该都知道，CF出了一个worker服务，可以让你免费运行serverless代码，比如制作反向代理，搭建博客等，只要能用no...",
+                        "pubDate": "2020-01-01T00:00:00",
+                        "upDate": "2020-01-01T12:10:54",
+                        "lrDate": "2020-01-01T12:10:54",
+                        "isOrignal":1
+                    }
+               </script>
+</head>
+<body>
+<mip-cambrian site-id=""></mip-cambrian>
+<mip-fixed type="top">
+    <div class="mip-nav-wrapper">
+        <mip-nav-slidedown data-id="bs-navbar" data-showbrand="1" data-brandname="OKYes!个人博客" class="mip-element-sidebar container">
+            <nav id="bs-navbar" class="navbar-collapse collapse navbar navbar-static-top">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-type="mip" href="../index.html">首页</a></li>
+                    <li><a href="../blog/55.html">本文PC版</a></li>
+                    <li class="navbar-wise-close"><span id="navbar-wise-close-btn"></span></li>
+                </ul>
+            </nav>
+        </mip-nav-slidedown>
+    </div>
+</mip-fixed>
+<div class="main">
+    <div class="post-detail">
+        <article class="post"><h1 class="title">如何充分使用CloudFlare的免费账户</h1>
+            <div class="meta">2020-01-01T00:00:00</div>
+            <div class="article-content">
+                <p>想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干</p><h2>1. 使用CF workers进行反向代理，搭建博客</h2><p>大家应该都知道，CF出了一个worker服务，可以让你免费运行serverless代码，比如制作反向代理，搭建博客等，只要能用node.js实现理论都可以运行，每日免费请求量是20万，够一个小型站点一天使用了。<br>源码<br>1.反代</p><pre><code>
+/**
+ * static files (404.html, sw.js, conf.js)
+ */
+const ASSET_URL = '要访问的地址'
+
+const JS_VER = 10
+const MAX_RETRY = 1
+
+/** @type {RequestInit} */
+const PREFLIGHT_INIT = {
+  status: 204,
+  headers: new Headers({
+    'access-control-allow-origin': '*',
+    'access-control-allow-methods': 'GET,POST,PUT,PATCH,TRACE,DELETE,HEAD,OPTIONS',
+    'access-control-max-age': '1728000',
+  }),
+}
+
+/**
+ * @param {any} body
+ * @param {number} status
+ * @param {Object&lt;string, string&gt;} headers
+ */
+function makeRes(body, status = 200, headers = {}) {
+  headers['--ver'] = JS_VER
+  headers['access-control-allow-origin'] = '*'
+  return new Response(body, {status, headers})
+}
+
+
+/**
+ * @param {string} urlStr 
+ */
+function newUrl(urlStr) {
+  try {
+    return new URL(urlStr)
+  } catch (err) {
+    return null
+  }
+}
+
+
+addEventListener('fetch', e =&gt; {
+  const ret = fetchHandler(e)
+    .catch(err =&gt; makeRes('cfworker error:\n' + err.stack, 502))
+  e.respondWith(ret)
+})
+
+
+/**
+ * @param {FetchEvent} e 
+ */
+async function fetchHandler(e) {
+  const req = e.request
+  const urlStr = req.url
+  const urlObj = new URL(urlStr)
+  const path = urlObj.href.substr(urlObj.origin.length)
+
+  if (urlObj.protocol === 'http:') {
+    urlObj.protocol = 'https:'
+    return makeRes('', 301, {
+      'strict-transport-security': 'max-age=99999999; includeSubDomains; preload',
+      'location': urlObj.href,
+    })
+  }
+
+  if (path.startsWith('/http/')) {
+    return httpHandler(req, path.substr(6))
+  }
+
+  switch (path) {
+  case '/http':
+    return makeRes('请更新 cfworker 到最新版本!')
+  case '/ws':
+    return makeRes('not support', 400)
+  case '/works':
+    return makeRes('it works')
+  default:
+    // static files
+    return fetch(ASSET_URL + path)
+  }
+}
+
+
+/**
+ * @param {Request} req
+ * @param {string} pathname
+ */
+function httpHandler(req, pathname) {
+  const reqHdrRaw = req.headers
+  if (reqHdrRaw.has('x-jsproxy')) {
+    return Response.error()
+  }
+
+  // preflight
+  if (req.method === 'OPTIONS' &amp;&amp;
+      reqHdrRaw.has('access-control-request-headers')
+  ) {
+    return new Response(null, PREFLIGHT_INIT)
+  }
+
+  let acehOld = false
+  let rawSvr = ''
+  let rawLen = ''
+  let rawEtag = ''
+
+  const reqHdrNew = new Headers(reqHdrRaw)
+  reqHdrNew.set('x-jsproxy', '1')
+
+  // 此处逻辑和 http-dec-req-hdr.lua 大致相同
+  // https://github.com/EtherDream/jsproxy/blob/master/lua/http-dec-req-hdr.lua
+  const refer = reqHdrNew.get('referer')
+  const query = refer.substr(refer.indexOf('?') + 1)
+  if (!query) {
+    return makeRes('missing params', 403)
+  }
+  const param = new URLSearchParams(query)
+
+  for (const [k, v] of Object.entries(param)) {
+    if (k.substr(0, 2) === '--') {
+      // 系统信息
+      switch (k.substr(2)) {
+      case 'aceh':
+        acehOld = true
+        break
+      case 'raw-info':
+        [rawSvr, rawLen, rawEtag] = v.split('|')
+        break
+      }
+    } else {
+      // 还原 HTTP 请求头
+      if (v) {
+        reqHdrNew.set(k, v)
+      } else {
+        reqHdrNew.delete(k)
+      }
+    }
+  }
+  if (!param.has('referer')) {
+    reqHdrNew.delete('referer')
+  }
+
+  // cfworker 会把路径中的 `//` 合并成 `/`
+  const urlStr = pathname.replace(/^(https?):\/+/, '$1://')
+  const urlObj = newUrl(urlStr)
+  if (!urlObj) {
+    return makeRes('invalid proxy url: ' + urlStr, 403)
+  }
+
+  /** @type {RequestInit} */
+  const reqInit = {
+    method: req.method,
+    headers: reqHdrNew,
+    redirect: 'manual',
+  }
+  if (req.method === 'POST') {
+    reqInit.body = req.body
+  }
+  return proxy(urlObj, reqInit, acehOld, rawLen, 0)
+}
+
+
+/**
+ * 
+ * @param {URL} urlObj 
+ * @param {RequestInit} reqInit 
+ * @param {number} retryTimes 
+ */
+async function proxy(urlObj, reqInit, acehOld, rawLen, retryTimes) {
+  const res = await fetch(urlObj.href, reqInit)
+  const resHdrOld = res.headers
+  const resHdrNew = new Headers(resHdrOld)
+
+  let expose = '*'
+  
+  for (const [k, v] of resHdrOld.entries()) {
+    if (k === 'access-control-allow-origin' ||
+        k === 'access-control-expose-headers' ||
+        k === 'location' ||
+        k === 'set-cookie'
+    ) {
+      const x = '--' + k
+      resHdrNew.set(x, v)
+      if (acehOld) {
+        expose = expose + ',' + x
+      }
+      resHdrNew.delete(k)
+    }
+    else if (acehOld &amp;&amp;
+      k !== 'cache-control' &amp;&amp;
+      k !== 'content-language' &amp;&amp;
+      k !== 'content-type' &amp;&amp;
+      k !== 'expires' &amp;&amp;
+      k !== 'last-modified' &amp;&amp;
+      k !== 'pragma'
+    ) {
+      expose = expose + ',' + k
+    }
+  }
+
+  if (acehOld) {
+    expose = expose + ',--s'
+    resHdrNew.set('--t', '1')
+  }
+
+  // verify
+  if (rawLen) {
+    const newLen = resHdrOld.get('content-length') || ''
+    const badLen = (rawLen !== newLen)
+
+    if (badLen) {
+      if (retryTimes &lt; MAX_RETRY) {
+        urlObj = await parseYtVideoRedir(urlObj, newLen, res)
+        if (urlObj) {
+          return proxy(urlObj, reqInit, acehOld, rawLen, retryTimes + 1)
+        }
+      }
+      return makeRes(res.body, 400, {
+        '--error': `bad len: ${newLen}, except: ${rawLen}`,
+        'access-control-expose-headers': '--error',
+      })
+    }
+
+    if (retryTimes &gt; 1) {
+      resHdrNew.set('--retry', retryTimes)
+    }
+  }
+
+  let status = res.status
+
+  resHdrNew.set('access-control-expose-headers', expose)
+  resHdrNew.set('access-control-allow-origin', '*')
+  resHdrNew.set('--s', status)
+  resHdrNew.set('--ver', JS_VER)
+
+  resHdrNew.delete('content-security-policy')
+  resHdrNew.delete('content-security-policy-report-only')
+  resHdrNew.delete('clear-site-data')
+
+  if (status === 301 ||
+      status === 302 ||
+      status === 303 ||
+      status === 307 ||
+      status === 308
+  ) {
+    status = status + 10
+  }
+
+  return new Response(res.body, {
+    status,
+    headers: resHdrNew,
+  })
+}
+
+
+/**
+ * @param {URL} urlObj 
+ */
+function isYtUrl(urlObj) {
+  return (
+    urlObj.host.endsWith('.googlevideo.com') &amp;&amp;
+    urlObj.pathname.startsWith('/videoplayback')
+  )
+}
+
+/**
+ * @param {URL} urlObj 
+ * @param {number} newLen 
+ * @param {Response} res 
+ */
+async function parseYtVideoRedir(urlObj, newLen, res) {
+  if (newLen &gt; 2000) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  try {
+    const data = await res.text()
+    urlObj = new URL(data)
+  } catch (err) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  return urlObj
+}![]()</code></pre><p>2.博客<br>源代码<a href="https://github.com">GayHub</a>上一堆，不发了</p><h2>2. 手动指定cf节点ip来达到最佳cdn效果</h2><p>此操作使用于用CloudFlare Partner接入的用户<br>添加网站之后，通过A记录解析到这些IP：</p><pre><code>108.162.236.1/24 联通 走美国
+172.64.32.1/24 移动 走香港
+104.16.160.1/24 电信 走美国洛杉矶
+---------
+172.64.0.0/24 电信 美国旧金山
+104.20.157.0/24 联通 走日本
+104.28.14.0/24 移动 走新加坡
+ （联通移动推荐节点）
+ 104.23.240.0-104.23.243.254
+ （电信推荐百度云合作ip）
+ 162.159.208.4-162.159.208.103
+ 162.159.209.4-162.159.209.103
+ 162.159.210.4-162.159.210.103
+ 162.159.211.4-162.159.211.103</code></pre><p>速度快的：</p><pre><code>104.20.157.2 
+104.18.62.2 
+141.101.115.3 
+104.16.160.3</code></pre><p>百度云加速合作节点：</p><pre><code>162.159.211.4-103
+103.21.244.0/22
+103.22.200.0/22
+103.31.4.0/22
+104.16.0.0/12
+108.162.192.0/18
+131.0.72.0/22
+141.101.64.0/18
+162.158.0.0/15
+172.64.0.0/13
+173.245.48.0/20
+188.114.96.0/20
+190.93.240.0/20
+197.234.240.0/22
+198.41.128.0/17</code></pre><p>其余节点</p><pre><code>#适合电信的节点
+104.23.240.*
+#走欧洲各国出口 英国德国荷兰等 延迟比美国高一些 适合源站在欧洲的网站
+172.64.32.*
+#虽然去程走新加坡，但是回程线路的绕路的，实际效果不好，不推荐
+104.16.160.*
+#圣何塞的线路，比洛杉矶要快一点，推荐
+108.162.236.*
+#亚特兰大线路，延迟稳定，但是延迟较高
+#适合移动的节点
+162.158.133.* 
+#走的丹麦，这一段ip只有部分能用，可以自己试一下。绕美国。
+198.41.214.*
+198.41.212.*
+198.41.208.*
+198.41.209.*
+172.64.32.*
+141.101.115.*
+#移动走香港的IP段有很多，以上并不是全部。CF移动走香港的分直连和走ntt的效果都挺不错的，不过部分地区晚上还是会丢包。
+172.64.0. *
+#这是走圣何塞的，一般用香港的就行
+172.64.16.* 
+#欧洲线路.绕
+ #1.0.0.1效果较好
+电信部分
+大多数省直接使用1.0.0.0即可，延迟低，丢包少，
+ #移动部分
+#新加坡
+ 104.18.48.0-104.18.63.255
+104.24.112.0-104.24.127.255
+104.27.128.0-104.27.143.255
+104.28.0.0-104.28.15.255
+ #移动部分
+#圣何塞 
+104.28.16.0-31.255
+104.27.144.0-243.254
+104.23.240.0-243.254
+ #香港cloudflare1-100g.hkix.net
+1.0.0.0-254
+1.1.1.0-254
+ #香港直连
+104.16.0.0-79.255
+104.16.96.0-175.254
+104.16.192.0-207.255</code></pre>                <div class="tip">当前页面是本站的「<a href="https://www.mipengine.org/">Baidu MIP</a>」版。发表评论请点击：<a
+                        href="../blog/55.html">完整版 »</a></div>
+                        </article>
+
+    </div>
+</div>
+<div class="footer"><p>&copy; 2020 <a data-type="mip" href="https://github.com/holmesian/Typecho-AMP">MIP for Typecho</a> v0.7.6.2        , Designed by  <a href="https://holmesian.org/" target="_blank">Holmesian</a>.</p></div>
+<mip-fixed type="gototop">
+    <mip-gototop></mip-gototop>
+</mip-fixed>
+<script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script>
+<script src="https://mipcache.bdstatic.com/static/v1/mip-nav-slidedown/mip-nav-slidedown.js"></script>
+<script src="https://mipcache.bdstatic.com/static/v1/mip-gototop/mip-gototop.js"></script>
+<script src="https://mipcache.bdstatic.com/static/v1/mip-fixed/mip-fixed.js"></script>
+<script src="https://mipcache.bdstatic.com/extensions/platform/v1/mip-cambrian/mip-cambrian.js"></script>
+<script src="https://c.mipcdn.com/static/v1/mip-stats-baidu/mip-stats-baidu.js"></script>
+<mip-stats-baidu>
+    <script type="application/json">
+        {
+            "token": "2780a062e9ba41e3b86cca50897df4c3",
+            "_setCustomVar": [1, "login", "1", 2],
+            "_setAutoPageview": [true]
+        }
+    </script>
+</mip-stats-baidu>
+    
+</body>
+</html>
