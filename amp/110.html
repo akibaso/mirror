@@ -1,0 +1,70 @@
+<!doctype html>
+<html amp lang="zh">
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>如何给自己的网站添加HSTS</title>
+    <link rel="canonical" href="../blog/110.html"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "如何给自己的网站添加HSTS",
+        "mainEntityOfPage": "https://2890.ltd/blog/110.html",
+        "author": {
+          "@type": "Person",
+          "name": "Given | あきばそう"
+        },
+        "datePublished": "February 28, 2020",
+        "dateModified": "February 28, 2020",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn233.2890.ltd/2020/02/2551905567.png",
+          "width": "1365",
+          "height": "668"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "OKYes!个人博客",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.2890.ltd/d74a3de2bf526638b867b62f2caccda8.jpeg",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "description": "什么是HSTSHSTS(\"HTTP Strict Transport Security” HTTP严格安全传输）是一种响应头，像这样Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;他可以防止你的网站在第一..."
+      }
+                </script>
+    <style amp-custom>*{margin:0;padding:0}html,body{height:100%}body{background:#fff;color:#666;font-size:14px;font-family:"-apple-system","Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif}::selection,::-moz-selection,::-webkit-selection{background-color:#2479CC;color:#eee}h1{font-size:1.5em}h3{font-size:1.3em}h4{font-size:1.1em}a{color:#2479CC;text-decoration:none}article{padding:85px 15px 0}article .entry-content{color:#444;font-size:16px;font-family:Arial,'Hiragino Sans GB',冬青黑,'Microsoft YaHei',微软雅黑,SimSun,宋体,Helvetica,Tahoma,'Arial sans-serif';-webkit-font-smoothing:antialiased;line-height:1.8;word-wrap:break-word}article h1.title{color:#333;font-size:2em;font-weight:300;line-height:35px;margin-bottom:25px}article .entry-content p{margin-top:15px;text-indent: 2em;}article h1.title a{color:#333;transition:color .3s}article h1.title a:hover{color:#2479CC}article blockquote{background-color:#f8f8f8;border-left:5px solid #2479CC;margin-top:10px;overflow:hidden;padding:15px 20px}article code{background-color:#eee;border-radius:5px;font-family:Consolas,Monaco,'Andale Mono',monospace;font-size:80%;margin:0 2px;padding:4px 5px;vertical-align:middle}article pre{background-color:#f8f8f8;border-left:5px solid #ccc;color:#5d6a6a;font-size:14px;line-height:1.6;overflow:hidden;padding:0.6em;position:relative;white-space:pre-wrap;word-break:break-word;word-wrap:break-word}article table{border:0;border-collapse:collapse;border-spacing:0}article pre code{background-color:transparent;border-radius:0 0 0 0;border:0;display:block;font-size:100%;margin:0;padding:0;position:relative}article table th,article table td{border:0}article table th{border-bottom:2px solid #848484;padding:6px 20px;text-align:left}article table td{border-bottom:1px solid #d0d0d0;padding:6px 20px}article .copyright-info,article .amp-info{font-size:14px}article .notice{background-color:#f5d09a;border:1px solid #e2e2e2;border-left:5px solid #fff000;color:#333;font-size:15px;padding:5px 10px;margin:20px 0px}article .post-info,article .entry-content .date{font-size:14px}article .entry-content blockquote,article .entry-content ul,article .entry-content ol,article .entry-content dl,article .entry-content table,article .entry-content h1,article .entry-content h2,article .entry-content h3,article .entry-content h4,article .entry-content h5,article .entry-content h6,article .entry-content pre{margin-top:15px}article pre b.name{color:#eee;font-family:"Consolas","Liberation Mono",Courier,monospace;font-size:60px;line-height:1;pointer-events:none;position:absolute;right:10px;top:10px}article .entry-content .date{color:#999}article .entry-content ul ul,article .entry-content ul ol,article .entry-content ul dl,article .entry-content ol ul,article .entry-content ol ol,article .entry-content ol dl,article .entry-content dl ul,article .entry-content dl ol,article .entry-content dl dl,article .entry-content blockquote > p:first-of-type{margin-top:0}article .entry-content ul,article .entry-content ol,article .entry-content dl{margin-left:25px}.header{background-color:#fff;box-shadow:0 0 40px 0 rgba(0,0,0,0.1);box-sizing:border-box;font-size:14px;height:60px;padding:0 15px;position:absolute;width:100%}.footer{font-size:.9em;padding:15px 0 25px;text-align:center;width:auto}.header h1{font-size:30px;font-weight:400;line-height:30px;margin:15px 0px}.menu-list li a,.menu-list li span{border-bottom:solid 1px #ededed;color:#000;display:block;font-size:18px;height:60px;line-height:60px;text-align:center;width:86px}.header h1 a{color:#333}.tex .hljs-formula{background:#eee8d5}</style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+<header class="header">
+    <div class="header-title"><h1><a href="../ampindex/index.html">OKYes!个人博客</a></h1></div>
+</header>
+
+<article class="post"><h1 class="title">如何给自己的网站添加HSTS</h1>
+    <div class="entry-content">
+        <h2>什么是HSTS</h2><p>HSTS("HTTP Strict Transport Security” HTTP严格安全传输）是一种响应头，像这样</p><pre><code>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;</code></pre><p>他可以防止你的网站在第一次http请求中被劫持，导致无法正常访问。</p><hr><p>本来我想图方便，直接让七牛将HSTS部署在他的边缘节点上，然后去面板里逛了一圈，发现这面板里没有这个设置，甚至连tls允许版本都没有，<del>明明隔壁又拍云都有(小声bb)</del>。<br>没办法，联系客服也只能做到开HSTS，而且怎么整都只有30天<br><amp-img  layout="responsive"  width="1365" height="668" src="https://cdn233.2890.ltd/2020/02/2551905567.png" alt="" title=""></amp-img><br>于是，只能自己动手了</p><hr><p>这里我们主要说Nginx的配置，只需要给nginx添加一行headers规则就好了<br>在nginx.conf末尾添加</p><pre><code>add_header Strict-Transport-Security &quot;max-age=31536000; includeSubdomains; preload&quot;;</code></pre><p>max-age代表缓存HSTS头的时间，这里是一年（以秒为单位）<br>includeSubdomains代表为子域名开启HSTS<br>preload代表预加载到浏览器缓存</p><hr><h2>申请Preload List</h2><p>有HSTS头已经能很大程度上的避免被劫持，但是缺点是需要正常访问一次才能缓存HSTS头，如何做到不需要访问一次，让浏览器自动强制使用HTTPS呢？<br>当然，是有的，Preload list是一个由 Google Chrome 维护，Chrome、Firefox、Safari、IE 11 和 Microsoft Edge 都在遵从的HSTS域名列表<br>如果要想把自己的域名加进这个列表，首先需要满足以下条件：</p><pre><code>拥有合法的证书（如果使用 SHA-1 证书，过期时间必须早于 2016 年）；
+
+    将所有 HTTP 流量重定向到 HTTPS；
+
+    确保所有子域名都启用了 HTTPS；
+
+    输出 HSTS 响应头：
+
+        max-age 不能低于 18 周（10886400 秒）；
+
+        必须指定 includeSubdomains 参数；
+
+        必须指定 preload 参数；
+</code></pre><p>如果全部都已经完成了的话，就可以去<a href="https://hstspreload.appspot.com">HSTS Preload List</a>申请，但是周期可能会很长，因为是人工审核，目前本站也在申请中，成功了的话我会回来更新文章，写写经验</p>    </div>
+    <p class="notice">当前页面是本站的「<a href="https://www.ampproject.org/zh_cn/">Google AMP</a>」版。查看和发表评论请点击：<a
+                href="../blog/110.html">完整版 »</a></p>
+    </article>
+<footer><div class="footer"><p>&copy; 2020 <a data-type="amp" href="https://github.com/holmesian/Typecho-AMP">AMP for Typecho</a> v0.7.6.2            , Designed by  <a href="https://holmesian.org/" target="_blank">Holmesian</a>.</p></div></footer>
+</body>
+</html>
