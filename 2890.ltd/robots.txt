@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /install/
-Disallow: /var/
-Disallow: /config.inc.php
-Disallow: /install.php
-
-Sitemap: https://2890.ltd/sitemap
-Sitemap: https://2890.ltd/sitemap_baidu.xml
